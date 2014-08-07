@@ -147,7 +147,7 @@
             }
         },
         id: {
-            'default': 'Wprowadź poprawnu numer identyfikacyjny',
+            'default': 'Wprowadź poprawny numer identyfikacyjny',
             countryNotSupported: 'Kod kraju %s nie jest obsługiwany',
             country: 'Wprowadź poprawny %s numer identyfikacyjny',
             countries: {
@@ -182,7 +182,10 @@
             'default': 'Wprowadź taką samą wartość'
         },
         imei: {
-            'default': 'Wprowadź poprawnu numer IMEI'
+            'default': 'Wprowadź poprawny numer IMEI'
+        },
+        imo: {
+            'default': 'Wprowadź poprawny numer IMO'
         },
         integer: {
             'default': 'Wprowadź poprawną liczbę całkowitą'
@@ -193,7 +196,7 @@
             ipv6: 'Wprowadź poprawny adres IPv6'
         },
         isbn: {
-            'default': 'Wprowadź porpawny numer ISBN'
+            'default': 'Wprowadź poprawny numer ISBN'
         },
         isin: {
             'default': 'Wprowadź poprawny numer ISIN'
@@ -211,6 +214,9 @@
         mac: {
             'default': 'Wprowadź poprawny adres MAC'
         },
+        meid: {
+            'default': 'Wprowadź poprawny numer MEID'
+        },
         notEmpty: {
             'default': 'Wprowadź wartość, pole nie może być puste'
         },
@@ -222,6 +228,8 @@
             countryNotSupported: 'Kod kraju %s nie jest wspierany',
             country: 'Wprowadź poprawny numer telefonu w kraju %s',
             countries: {
+                ES: 'Hiszpania',
+                FR: 'Francja',
                 GB: 'Wielka Brytania',
                 US: 'USA'
             }
@@ -301,7 +309,8 @@
                 RS: 'serbski',
                 SE: 'szwedzki',
                 SI: 'słoweński',
-                SK: 'słowacki'
+                SK: 'słowacki',
+                ZA: 'południowo Afrykański'
             }
         },
         vin: {
@@ -312,14 +321,14 @@
             countryNotSupported: 'Kod kraju %s nie jest obsługiwany',
             country: 'Wprowadź poprawny %s kod pocztowy',
             countries: {
-                'CA': 'kanadyski',
-                'DK': 'duński',
-                'GB': 'brytyjski',
-                'IT': 'włoski',
-                'NL': 'holenderski',
-                'SE': 'szwecki',
-                'SG': 'singapurski',
-                'US': 'w USA'
+                CA: 'kanadyski',
+                DK: 'duński',
+                GB: 'brytyjski',
+                IT: 'włoski',
+                NL: 'holenderski',
+                SE: 'szwecki',
+                SG: 'singapurski',
+                US: 'w USA'
             }
         }
     });

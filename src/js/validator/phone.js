@@ -4,6 +4,8 @@
         countryNotSupported: 'The country code %s is not supported',
         country: 'Please enter a valid phone number in %s',
         countries: {
+            ES: 'Spain',
+            FR: 'France',
             GB: 'United Kingdom',
             US: 'USA'
         }
@@ -16,7 +18,7 @@
         },
 
         // The supported countries
-        COUNTRY_CODES: ['GB', 'US'],
+        COUNTRY_CODES: ['ES', 'FR', 'GB', 'US'],
 
         /**
          * Return true if the input value contains a valid phone number for the country
@@ -32,7 +34,6 @@
          *      - Name of callback function that returns the country code
          *      - A callback function that returns the country code
          *
-         * Currently it only supports United State (US) or United Kingdom (GB) countries
          * @returns {Boolean|Object}
          */
         validate: function(validator, $field, options) {
@@ -56,6 +57,18 @@
 
             var isValid = true;
             switch (country.toUpperCase()) {
+                case 'ES':
+                    // http://regex101.com/r/rB9mA9/1
+                    value   = $.trim(value);
+                    isValid = (/^(?:(?:(?:\+|00)34\D?))?(?:9|6)(?:\d\D?){8}$/).test(value);
+                    break;
+
+                case 'FR':
+                    // http://regexr.com/395dq
+                    value   = $.trim(value);
+                    isValid = (/^(?:(?:(?:\+|00)33\D?(?:\D?\(0\)\D?)?)|0){1}[1-9]{1}(?:\D?\d{2}){4}$/).test(value);
+                    break;
+
             	case 'GB':
             		// http://aa-asterisk.org.uk/index.php/Regular_Expressions_for_Validating_and_Formatting_GB_Telephone_Numbers#Match_GB_telephone_number_in_any_format
             		// Test: http://regexr.com/38uhv

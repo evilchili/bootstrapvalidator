@@ -1,6 +1,6 @@
 (function($) {
     /**
-     * Chilean Spanish package
+     * Chilean Spanish language package
      * Translated by @marceloampuerop6
      */
     $.fn.bootstrapValidator.i18n = $.extend(true, $.fn.bootstrapValidator.i18n, {
@@ -184,6 +184,9 @@
         imei: {
             'default': 'Por favor ingrese un número IMEI válido'
         },
+        imo: {
+            'default': 'Por favor ingrese un número IMO válido'
+        },
         integer: {
             'default': 'Por favor ingrese un número válido'
         },
@@ -211,6 +214,9 @@
         mac: {
             'default': 'Por favor ingrese una dirección MAC válida'
         },
+        meid: {
+            'default': 'Por favor ingrese un número MEID válido'
+        },
         notEmpty: {
             'default': 'Por favor ingrese un valor'
         },
@@ -222,6 +228,8 @@
             countryNotSupported: 'El código del país %s no está soportado',
             country: 'Por favor ingrese un número válido de teléfono en %s',
             countries: {
+                ES: 'España',
+                FR: 'Francia',
                 GB: 'Reino Unido',
                 US: 'EE.UU.'
             }
@@ -301,7 +309,8 @@
                 RS: 'Serbio',
                 SE: 'Sueco',
                 SI: 'Esloveno',
-                SK: 'Eslovaco'
+                SK: 'Eslovaco',
+                ZA: 'Sudafricano'
             }
         },
         vin: {
@@ -312,14 +321,14 @@
             countryNotSupported: 'El código del país %s no está soportado',
             country: 'Por favor ingrese un %s válido',
             countries: {
-                'CA': 'código postal Canadiense',
-                'DK': 'código postal Danés',
-                'GB': 'código postal Británico',
-                'IT': 'código postal Italiano',
-                'NL': 'código postal Holandés',
-                'SE': 'código postal Suizo',
-                'SG': 'código postal Singapurense',
-                'US': 'código postal de EE.UU.'
+                CA: 'código postal Canadiense',
+                DK: 'código postal Danés',
+                GB: 'código postal Británico',
+                IT: 'código postal Italiano',
+                NL: 'código postal Holandés',
+                SE: 'código postal Suizo',
+                SG: 'código postal Singapurense',
+                US: 'código postal de EE.UU.'
             }
         }
     });

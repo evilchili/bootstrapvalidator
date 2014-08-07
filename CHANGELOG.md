@@ -2,16 +2,38 @@
 
 ## v0.5.1 (not released yet)
 
+__New features__
+
+* [#218](https://github.com/nghuuphuoc/bootstrapvalidator/issues/218), [#531](https://github.com/nghuuphuoc/bootstrapvalidator/pull/531): Add meid validator, thanks to [@troymccabe](https://github.com/troymccabe)
+* [#267](https://github.com/nghuuphuoc/bootstrapvalidator/issues/267), [#532](https://github.com/nghuuphuoc/bootstrapvalidator/pull/532): Add imo validator, thanks to [@troymccabe](https://github.com/troymccabe)
+* [#510](https://github.com/nghuuphuoc/bootstrapvalidator/pull/510), [#536](https://github.com/nghuuphuoc/bootstrapvalidator/pull/536): The [phone](http://bootstrapvalidator.com/validators/phone/) validator now supports French, Spanish phone number, thanks to [@dlucazeau](https://github.com/dlucazeau) and [@vadail](https://github.com/vadail)
+* [#519](https://github.com/nghuuphuoc/bootstrapvalidator/pull/519): Add validator for South African [VAT](http://bootstrapvalidator.com/validators/vat/) numbers, thanks to [@evilchili](https://github.com/evilchili)
+
 __Improvements__
 
 * [#502](https://github.com/nghuuphuoc/bootstrapvalidator/pull/502): Allowing sites without TLD to pass URI validation, thanks to [@troymccabe](https://github.com/troymccabe)
+* [#549](https://github.com/nghuuphuoc/bootstrapvalidator/pull/549), [#600](https://github.com/nghuuphuoc/bootstrapvalidator/pull/600): Change the CSS/JS path in ```demo/remote.html``` and ```demo/message.html```, thanks to [@leegtang](https://github.com/leegtang), [@Arkni](https://github.com/Arkni)
+* [#604](https://github.com/nghuuphuoc/bootstrapvalidator/pull/604): Fix the ```demo/date.html``` and ```demo/tab.html``` examples, thanks to [@Arkni](https://github.com/Arkni)
+* [#609](https://github.com/nghuuphuoc/bootstrapvalidator/pull/609): Add content-type header for ```demo/remote.php```, thanks to [@etorres](https://github.com/etorres)
+
+__Bug Fixes__
+
+* [#550](https://github.com/nghuuphuoc/bootstrapvalidator/issues/550), [#551](https://github.com/nghuuphuoc/bootstrapvalidator/pull/551): Cannot validate against both ipv4 and ipv6 at the same time, thanks to [@beeglebug](https://github.com/beeglebug)
 
 __Language Packages__
 
+* [#400](https://github.com/nghuuphuoc/bootstrapvalidator/pull/400): Italian language package, thanks to [@maramazza](https://github.com/maramazza)
 * [#503](https://github.com/nghuuphuoc/bootstrapvalidator/pull/503): French language package, thanks to [@dlucazeau](https://github.com/dlucazeau)
 * [#505](https://github.com/nghuuphuoc/bootstrapvalidator/pull/505): Czech language package, thanks to [@AdwinTrave](https://github.com/AdwinTrave)
-* [#507](https://github.com/nghuuphuoc/bootstrapvalidator/pull/507): Polish language package, thanks to [@grzesiek](https://github.com/grzesiek)
+* [#507](https://github.com/nghuuphuoc/bootstrapvalidator/pull/507): Polish language package, thanks to [@grzesiek](https://github.com/grzesiek).
+  [#624](https://github.com/nghuuphuoc/bootstrapvalidator/pull/624): Typos fixed by [@lukaszbanasiak](https://github.com/lukaszbanasiak)
 * [#517](https://github.com/nghuuphuoc/bootstrapvalidator/pull/517): Belgium (Dutch) language package, thanks to [@dokterpasta](https://github.com/dokterpasta)
+* [#527](https://github.com/nghuuphuoc/bootstrapvalidator/pull/527): Bulgarian language package, thanks to [@mraiur](https://github.com/mraiur)
+* [#534](https://github.com/nghuuphuoc/bootstrapvalidator/pull/534): Turkish language package, thanks to [@CeRBeR666](https://github.com/CeRBeR666)
+* [#536](https://github.com/nghuuphuoc/bootstrapvalidator/pull/536): Spanish language package, thanks to [@vadail](https://github.com/vadail)
+* [#544](https://github.com/nghuuphuoc/bootstrapvalidator/pull/544): Greek language package, thanks to [@pRieStaKos](https://github.com/pRieStaKos)
+* [#545](https://github.com/nghuuphuoc/bootstrapvalidator/pull/545): Portuguese (Brazil) language package, thanks to [@marcuscarvalho6](https://github.com/marcuscarvalho6)
+* [#598](https://github.com/nghuuphuoc/bootstrapvalidator/pull/598): Danish language package, thanks to [@Djarnis](https://github.com/Djarnis)
 
 ## v0.5.0 (2015-07-14)
 
