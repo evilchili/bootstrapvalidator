@@ -108,7 +108,7 @@
                 case 'US':
                 /* falls through */
                 default:
-                    isValid = /^\d{4,5}([\-]?\d{4})?$/.test(value);
+                    isValid = /^\d{5}([\-]?\d{4})?$/.test(value);
                     break;
             }
 
